@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Large Files (YOLO models > 100MB)
+*.pt
+*.onnx
+
+# User Data
+uploads/
+outputs/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Cloud Deploy (Redundant copies)
+CLOUD_DEPLOY/
+
+# IDEs
+.vscode/
+.idea/
