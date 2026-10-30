@@ -5,6 +5,7 @@ __pycache__/
 .venv/
 venv/
 env/
+.pytest_cache/
 
 # Large Files (YOLO models > 100MB)
 *.pt
@@ -21,6 +22,12 @@ outputs/
 # Cloud Deploy (Redundant copies)
 CLOUD_DEPLOY/
 
-# IDEs
+# Env / logs
+.env
+.env.*
+*.log
+
+# IDEs / OS
 .vscode/
 .idea/
+.DS_Store
